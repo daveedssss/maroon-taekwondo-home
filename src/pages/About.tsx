@@ -14,8 +14,12 @@ const About = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             <div>
-              <div className="rounded-lg overflow-hidden shadow-lg h-[500px] bg-gray-200">
-                {/* Dave's image would go here */}
+              <div className="rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="public/lovable-uploads/cc50f9d0-dffb-4f99-84fb-2ed83db6c55b.png" 
+                  alt="Dave Hermino" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
             
@@ -28,7 +32,7 @@ const About = () => {
                 With a passion for teaching and a deep understanding of Taekwondo techniques, Dave founded his own training center to share his knowledge and help others develop both physically and mentally through this ancient martial art.
               </p>
               <p className="mb-4 text-lg">
-                Dave holds a {/* belt level */} degree black belt and is certified by {/* organization */}. His teaching philosophy combines traditional Taekwondo values with modern training methods to create a comprehensive martial arts education.
+                Dave holds a 5th degree black belt and is certified by the World Taekwondo Federation. His teaching philosophy combines traditional Taekwondo values with modern training methods to create a comprehensive martial arts education.
               </p>
             </div>
           </div>

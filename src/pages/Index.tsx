@@ -22,9 +22,11 @@ const Index = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <div className="bg-gray-200 h-[400px]">
-                  {/* This would be Dave's image */}
-                </div>
+                <img 
+                  src="public/lovable-uploads/cc50f9d0-dffb-4f99-84fb-2ed83db6c55b.png" 
+                  alt="Dave Hermino" 
+                  className="w-full h-auto"
+                />
               </div>
               
               <div>
